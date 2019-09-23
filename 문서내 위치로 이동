@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h3>참고도서 제목</h3>
+<ol>
+<li>확인중 <a href="#book1">4차 산업혁명 새로운 직업 이야기</a></li>
+<li>다카하시 노부오 <a href="#book2">30분 경영학</a></li>
+</ol></br>
+<h3>참고도서</h3>
+<ol>
+<a id="book1"></a><li>4차 산업혁명 새로운 직업 이야기</li>
+<table border="1"><tr><td>
+<ul>
+<li>저자 : 확인중</li>
+<li>출판사 : 드림리치</li>
+</ul>
+</td></tr></table>
+<a id="book2"></a><li>30분 경영학</li>
+<table border="1"><tr><td>
+<ul>
+<li>저자 : 다카하시 노부오</li>
+<li>출판사 : 길벗</li>
+</td></tr></table>
+</ul>
+</body>
+</html>
