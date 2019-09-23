@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>오디오 삽입하기</title>
+<meta charset "utf-8"/>
+<meta authors="김수빈 이토마">
+<meta copyright="본 예제는 [HTML 웹프로그래밍 입문] 교재를 이용한 교육에만 사용할 수 있음">
+</head>
+<body>
+<audio controls src="song.mp3" loop="3" autoplay>
+브라우저에서 &lt:audio&gt:를 지원하지 않습니다.</br>
+(song.mp3 파일이 3회 자동재생 됩니다.)
+</audio>
+</body>
+</html>
