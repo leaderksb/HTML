@@ -1,0 +1,22 @@
+<!DOYTYPE html>
+<html>
+<head>
+<title>iframe</title>
+<body>
+<h2>번역기 링크</h2>
+<li>구글 번역기</li>
+<ul>
+<li><a href="https://translate.google.co.kr/?hl=ko" target="intro">구글 번역기 링크</a></li>
+<li>Google Translate</li>
+<li>제작 : 구글</li>
+</ul>
+<li>네이버 번역기</li>
+<ul>
+<li><a href="https://papago.naver.com/" target="intro">네이버 번역기 링크</a></li>
+<li>별명 : 파파고</li>
+<li>제작 : 네이버</li>
+</ul>
+<iframe src ="" name="intro"width="500"height="500"></iframe>
+</body>
+</head>
+</html>
