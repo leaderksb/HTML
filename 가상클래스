@@ -1,0 +1,16 @@
+<!DOYTYPE html>
+<html>
+<title>가상클래스</title>
+<head>
+<style type="text/css">
+p{font-size:10pt}
+a:link{color:blue;}
+a:visited{color:green;}
+h3:before{content:"◆"; color:blue}
+h3:after{content:"<[∞무한]"; font-size:10pt}
+</style>
+</head>
+<body>
+<h3><strong></strong></h3>
+</body>
+</html>
