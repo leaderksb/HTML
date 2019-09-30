@@ -1,0 +1,16 @@
+<!DOYTYPE html>
+<html>
+<title>스타일 문서</title>
+<head>
+<style type="text/css">
+h3 {font-style:italic}
+p {font-size:10pt}
+</style>
+</head>
+<body>
+<h3>스타일 지정이 있는 문서</h3>
+<h4>이 문서는 <strong>CSS</strong>의 개념을 설명합니다.</h4>
+<h3>폰트 및 색상 지정 문서<h3>
+<p>이 문서는 <strong>CSS</strong>스타일 지정을 보여줍니다.</p>
+</body>
+</html>
