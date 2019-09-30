@@ -5,6 +5,8 @@
 <style type="text/css">
 #intro{font-style:italic;}
 .term{font-weight:bold; text-decoration:underline}
+#next{color:blue; text-align:center}
+.red1{color:red; font-size:12pt}
 </head>
 </style>
 <body>
@@ -18,5 +20,7 @@
 <h3>스타일 시트 이해하기</h3>
 <p>이 예제는 <strong>CSS</strong>의 개념을 설명합니다.</p>
 </div>
+<h3 class="red1">클래스와 id 사용</h3>
+<p id="next">next</p>
 </body>
 </html>
