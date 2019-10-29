@@ -1,0 +1,62 @@
+<!DOYTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>form 태그</title>
+</head>
+<body>
+<input type="text" list="browsers">
+<datalist id="browsers">
+	<option value="인터넷 익스플로러" label="IE">
+	<option value="파이어폭스" label="FireFox">
+	<option value="크롬" label="Chrome">
+	<option value="오페라" label="Opera">
+	<option value="사파리" label="Safari" disabled>
+</datalist>
+
+<hr>
+
+<form action="" method="get">
+	암호화 : <keygen name="security" />
+	<input type="submit" />
+</form>
+
+<hr>
+
+<form action="demo_keygen.php" method="get" id="security">
+	사용자 이름 : <input type="text" name="user_name">
+	<input type="submit">
+</form>
+암호화 : <keygen name="security" form="security"/>
+
+<form onsubmit="return false" oninput="out.value = parseInt(in_a.valueAsNumber) + in_b.valueAsNumber">
+	<input name="in_a" type="range" step=1 value=5> +
+	<input name="in_b" type="number" step=1 value=7> =
+	<output name="out" for="in_a in_b"></output>
+</form>
+
+<p>작업 진행 상태 : <progress id="work" max=100>%</progress></p>
+<script>
+	var progressBar = document.getElementByld('work');
+	function updateProgress(newValue) {
+	progressBar.value = newValue;
+	progressBar.getElementsByTagName('spam')[0].textContent = newValue;
+	}
+</script>
+<p>파일 다운로드 상태 : <progress id="bar"></progress></p>
+<script>
+	var fileDownload = document.getElementByld('bar');
+	fileDownload.min = 20;
+	fileDownload.max = 100;
+	setInterval (function () {fileDownload.value = fileDownload.min +
+	Math.random() * (fileDownload.max - fileDownload.min); }, 1000);
+	}
+</script>
+
+<p>디스크 사용률 <meter max=100 value=60></meter> (2BT 기준)</p>
+<p>티켓 판매량 <meter min=0 max=100 value=75></meter> (3500석 기준)</p>
+<p>올해 투표율 <meter value=0.75 title="최근 4차례 투표 최고치"></meter></p>
+
+</body>
+
+</html>
