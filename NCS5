@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 From 연습하기</title>
+</head>
+<body>
+	<article>
+		<h3>추가된 Input 속성 연습</h3>
+			<form action="" method="get">
+				<h4>◆ minlength, required, placeholder 속성</h4>
+					<p>이름 : <input name=name type=text placeholder="이름을 입력하세요.">
+						비밀번호 : <input name=pass type=password minlength=12 required>
+				<h4>◆ minlength 속성</h4>
+				<p>참조 : <input name=file multiple name=cc list=contacts>
+					<datalist id="contacts">
+						<option value="ex1@example.com">
+						<option value="ex1@example.com">
+						<option value="ex1@example.com">
+					</datalist>
+				첨부파일 : <input type=file multiple accept="image/jpeg, image/png" name=att></p>
+				
+				<h4>◆ min, max, step 속성</h4>
+				<p>생년월일 : <input name=birth_day type=date max="1979-12-31">
+					0과 1 사이 : <input name=opacity type="range" min=0 max=1 step=0.00392156863></p>
+				<p>취침시간 : <input name=sleepStart type=time min="21:00" max="06:00" step="60" value="00:00">
+					시간선택 : <input name=favtime type=time step="any"></p>
+				
+				<h4>◆ pattern 속성</h4>
+				<p>전화번호 : <input type="text" name=tel1 pattern="0\d{2,3}\-\d{2,4}\-\d{3,4}" title="올바른 형식이 아닙니다."></p>
+				
+				<h4>◆ list 속성</h4>
+				<p>주요 브라우저  : <input list="browsers"></p>
+					<datalist id="browsers">
+						<option value="Internet Explorer">
+						<option value="Firefox">
+						<option value="Google Chrome">
+						<option value="Opera">
+						<option value="Safari">
+					</datalist>
+					
+					<button type="submit">데이터 전송</button>
+			</form>
+	</article>
+
+</body>
+</html>
