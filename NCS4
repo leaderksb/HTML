@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NCS4</title>
+</head>
+<body>
+	<h2>Input 요소의 타입(Type) 연습2</h2>
+		<form method="post" action="">
+		<fieldset>
+		<legend>날짜를 입력하세요</legend>
+			<p><label for="1day">1 일자 입력 : </lebel>
+			<input type="date" name="date"><br>
+			<p><label for="2day">2 일자 입력 : </lebel>
+			<input type="month" name="month"><br>
+			<p><label for="3day">3 일자 입력 : </lebel>
+			<input type="week" name="week"><br>
+			<p><label for="ci">시간 입력 : </lebel>
+			<input type="time" name="time"><br>
+			<p><label for="dayci">일시(UTC) 입력 : </lebel>
+			<input type="datetime" name="datetime"><br>
+			<p><label for="daylo">일시(로컬) 입력 : </lebel>
+			<input type="datetime-local" name="datetime-local"><br>
+		</fieldset><br>
+			<p><button type="submit">데이터 전송</button>
+</body>
+</html>
