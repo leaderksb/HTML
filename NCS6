@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NCS6</title>
+</head>
+<body>
+	<h2>피자 주문하기</h2>
+	<hr>
+	
+	<p>고객 이름 : <input type="text" name="go"/><br></p>
+	<p>전화 번호 : <input type="tel" name="tel"/><br></p>
+	<p>메일 주소 : <input type="email" name="email"/><br></p>
+	
+		<fieldset>
+			<legend>피자 크기</legend>
+			<p>
+			<input type="radio" name="small" value="Small">Small
+			<input type="radio" name="medium" value="Medium">Medium
+			<input type="radio" name="large" value="Large">Large
+		</fieldset>
+		<fieldset>
+			<legend>피자 토핑 고르기</legend>
+			<p>
+			<input type="checkbox" name="be" value="베이컨">베이컨
+			<input type="checkbox" name="ch" value="치즈">치즈
+			<input type="checkbox" name="on" value="양파">양파
+			<input type="checkbox" name="sut" value="버섯">버섯
+		</fieldset>
+		
+		<p><label for="ci">원하는 배달 시간 : </lebel>
+			<input type="time" name="time">
+		배달 요구 사항 : <textarea name="comments" rows="2" cols="20"/></textarea>
+		
+			<p><button type="submit">피자 주문하기</button>
+</body>
+</html>
