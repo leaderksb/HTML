@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>NCS1</title>
+</head>
+<body>
+	<h2>기존 폼 Input 타입 살펴보기</h2>
+	<form method="get" action="form_app.js">
+		<p>1. 텍스트 입력 : <input type="text" name="text" value="텍스트 입력"/><br></p>
+		<p>2. 암호 입력 : <input type="password" name="pw"/><br></p>
+		<p>3. 라디오 버튼 : <input type="radio" name="radio" value="radio"/>라디오<br></p>
+		<p>4. 체크 박스 : <input type="checkbox" name="checkbox" value="check"/>체크<br></p>
+		</p>5. 숨김 타입 : <input type="hidden" name="hidden" value="hidden"/>숨겨짐<br></p>
+		<p>6. 파일 타입 : <input type="file" name="file" value="file"/><br></p>
+		<p>7. 이미지 버튼 : <button type="button"><img src="image.jpg" alt="image">이미지</button><br></p>
+		<p>8. 전송 버튼 : <input type="submit" name="submit" value="전송하기"/>전송<br></p>
+		<p>9. 취소 버튼 : <input type="reset" name="reset" value="취소하기"/>취소<br></p>
+		<p>10. 버튼 생성 : <input type="button" name="button" value="확인하기"/>버튼<br></p>	
+	</form>
+</body>
+</html>
