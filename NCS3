@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>HTML5 From 연습하기</title>
+</head>
+<body>
+<article>
+	<h3>Input 요소의 타입(Type) 연습1</h3>
+	<form action="" method="get">
+		<p>검색 문자열 : <input type="search" name="search" value="HTML5">
+			<p>전화번호 : <input type="tel" name="tel" size="13" required>
+		<p>홈페이지 : <input type="url" name="url">
+			<p>즐겨찾기 : <input type="url" name="location" list="urls">
+				<datalist id="urls">
+					<option lable="MIME: Format of Internet Massage Bodies" value="http://tools.ietf.org/html/rfc2045">
+					<option lable="HTML 4.01 Specification" value="http://www.w3.org/TR/html4/">
+					<option lable="Form Controls" value="http://www.w3.org/TR/xforms/slice8.html#ui-commonelems-hint">
+					<option lable="Scalable Vector Graphics (SVG) 1.1 Specification" value="http://www.w3.org/TR/SVG/">
+					<option lable="Feature Sets - SVG 1.1 - 20030114" value="http://www.w3.org/TR/SVG/feature.html">
+					<option lable="The Single UNIX Specification, Version 3" value="http://www.unix-systems.org/version3/">					
+				</datalist>
+			<p>메일 주소 : <input type="email" name="email">
+		<p>갯수 입력 : <input type="number" name="number" min=2 max=10 step=1 value="6">
+		<p>범위 입력1 : <input type="range" name="range1" min=0 max=100 step=2 value="80">
+		<p>범위 입력2 : <input type="range" name="range2" min=0 max=30 step=2>
+		<p>범위 입력3 : <input class="power" type="range" name="power" min=100 max=100 step=10 value="0" list="powers">
+				<datalist id="powers">
+					<option value="0">
+					<option value="-30">
+					<option value="30">
+					<option value="++50">
+				</datalist>
+		<p>색상 입력 : <input type="color" name="color" value="#FF0000">
+		<p><button type="submit">데이터 전송</button>
+	</form>
+</article>
+</body>
+</html>
