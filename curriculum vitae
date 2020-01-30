@@ -1,0 +1,322 @@
+	<!DOCTYPE html> 					<!--문서 형식선언-->
+	<html>						        <!--HTML 주석-->
+
+		<head>
+		<meta charset="UTF-8">			<!--meta 문자 인코딩-->
+
+		<title>김수빈 이력서&자기소개</title>	<!--title 문서 제목-->
+
+	<style type = "text/css">				/*style 스타일태그 주석처리*/
+		h2 { font-family: "돋움" }			/*font-family font 폰트 지정*/
+		a:link { color: red }				/*방문전 a태그의 링크*/
+		a:visited { color: orange }			/*방문한 a태그의 링크*/
+		#color { font-family: "arial"; color: blue }	/*color 아이디 선언*/
+		#me { font-size: 18pt; font-family: "돋움"; font-weight: bold }
+							/*font-size,family,weight 폰트 크기,폰트 지정, 굵기 값 설정*/
+		li.tokki { list-style-image: url("tokki.png") }	/*list-style-image 글머리 이미지*/
+
+	table, th, td{
+	border: 1px solid lightpink				/*테이블 테두리에 키워드로 표현된 색 넣기*/
+	}
+	table{
+	width: 900px;					/*모든 웹브라우저에서 보기좋게 사이즈 조절*/
+	margin: auto;
+	text-align: center;
+	background-color: #F8F8FF				/*background-color 테이블 배경에 16진수로 표현된 색 넣기*/
+	}						/*테이블을 웹중앙으로 정렬*/
+	
+	ul{
+	border: 1px solid pink
+	}
+	ul.a{
+ 	font-size: 12.5pt;
+	font-family: "돋움";
+	font-weight: bold;
+	width: 870px;
+	margin-left: auto;
+	margin-right: auto
+	}						/*ul 목록 문서 중앙으로 정렬*/
+	
+	</style>
+
+		</head>
+
+		<body>
+
+	<center>						<!--center 중앙으로 정렬-->
+	<br>						<!--br 줄바꿈-->
+		<h2>이력서</h2>				<!--h2 제목-->
+	<br>
+	</center>
+
+	<table border="1">				<!--table 표의 구성-->
+		<tbody>					<!--table 표의 몸체-->
+
+	<tr>						<!--tr 하나의 행-->
+		<td rowspan="5">				<!--td 각 셀의 데이터-->
+							<!--rowspan 위아래줄 셀병합-->
+		<img src="subin.jpg"
+		alt="김수빈 사진" width="130" height="130">  <!--width height 가로 세로 크기설정-->
+		</td>
+
+		<th>이름:</th>			<!--th 제목-->
+		<td><mark>(한글)김수빈</mark></td>
+							<!--mark 하이라이트 표기-->
+		<td>(영문)Kimsubin</td>
+		<td>(한자)金秀彬</td>
+		<th>성별:</th>
+		<td>女</td>
+	</tr>
+	<tr>
+		<th>생년월일:</th>
+		<td>2002년</td>
+		<td>12월</td>
+		<td>28일</td>
+		<td colspan="2">&lt;만16세&gt;</td>	<!--&lt; &gt; <> 특수문자 표기-->
+	<tr>
+		<th>전화번호1:</th>
+		<td colspan="2"><div id="color">010`7462`6013</div></td>
+		<th>전화번호2:</th>			<!--div로 아이디 가져오기-->
+		<td colspan="2"><div id="color">010`7246`1138</div></td>
+	</tr>
+	<tr>
+		<th>주소:</th>
+		<td colspan="5">인천광역시 남동구 장아산로 174번길 27</td>
+							<!--colspan 옆칸의 셀병합-->
+	</tr>
+	<tr>
+		<th>E-Mail:</th>
+		<td colspan="3">remnantleader@naver.com</td>
+		<th>장애여부:</th>
+		<td>無</td>
+	</tr>
+		</tbody>
+	</table>
+
+	<table border="1">				<!--table 표의 구성-->
+		<tbody>					<!--table 표의 몸체-->
+	<tr>
+		<th>학력사항</th>
+		<td>(대학교 재학중)</td>
+		</tr>
+		<tr>
+		<th>학교명</th>
+		<th>구분</th>
+		<th colspan="9">재학기간</th>
+		<th>전공</th>
+		<th>소재지</th>
+		<th>비고</th>
+	</tr>
+	<tr>
+		<td>대야</td>
+		<th>초등학교</th>
+		<td>&nbsp;2009&nbsp;</td>		<!--&nbsp 공백표기-->
+		<th>년</th>
+		<td>&nbsp;02&nbsp;</td>
+		<th>월</th>
+		<th>&nbsp;-&nbsp;</th>
+		<td>&nbsp;2015&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;02&nbsp;</td>
+		<th>월
+		</th>
+		<td></td>
+		<td>경기도 시흥시</td>
+		<td>졸업</td>
+	</tr>
+	<tr>
+		<td> - </td>
+		<th>중학교</th>
+		<td>&nbsp;2016&nbsp;</td>
+		<th>년</th>
+		<td></td>
+		<th>월</th>
+		<td>&nbsp;-&nbsp;</td>
+		<td>&nbsp;2016&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;08&nbsp;</td>
+		<th>월</th>
+		<td></td>
+		<td>경기도 시흥시</td>
+		<td>검정고시</td>
+	</tr>
+	<tr>
+		<td> - </td>
+		<th>고등학교</th>
+		<td>&nbsp;2017&nbsp;</td>
+		<th>년</th>
+		<td></td>
+		<th>월</th>
+		<td>&nbsp;-&nbsp;</td>
+		<td>&nbsp;2017&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;08&nbsp;</td>
+		<th>월</th>
+		<td></td>
+		<td>인천광역시 남동구</td>
+		<td>검정고시</td>
+	</tr>
+	<tr>
+		<td>인하공전</td>
+		<th>대학교</th>
+		<td>&nbsp;2019&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;03&nbsp;</td>
+		<th>월</th>
+		<td>&nbsp;-&nbsp;</td>
+		<td></td>
+		<th>년</th>
+		<td></td>
+		<th>월</th>
+		<td>컴퓨터시스템과</td>
+		<td>인천광역시 남동구</td>
+		<td>재학</td>
+	</tr>
+		</tbody>
+	</table>
+
+	<table border="1">				<!--table 표의 구성-->
+		<tbody>					<!--table 표의 몸체-->
+	<tr>
+		<th>자격사항</th>
+	</tr>
+	<tr>
+		<th>자격증</th>
+		<th colspan="4">취득년월</th>
+		<th>국어</th>
+		<th>영어</th>
+		<th>수학</th>
+		<th>사회</th>
+		<th>과학</th>
+		<th>국사</th>
+		<th>선택</th>
+		<th>평균</th>
+		<th>발행기관</th>
+	</tr>
+	<tr>
+		<th>고입 검정고시</th>
+		<td>&nbsp;2016&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;08&nbsp;</td>
+		<th>월</th>
+		<td>96</td>
+		<td>100</td>
+		<td>96</td>
+		<td>80</td>
+		<td>84</td>
+		<td>X</td>
+		<td>100</td>
+		<td>&nbsp;92.66&nbsp;</td>
+		<td>경기도 교육청</td>
+	</tr>
+	<tr>
+		<th>대입 검정고시</th>
+		<td>&nbsp;2017&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;08&nbsp;</td>
+		<th>월</th>
+		<td>96</td>
+		<td>92</td>
+		<td>95</td>
+		<td>96</td>
+		<td>96</td>
+		<td>88</td>
+		<td>92</td>
+		<td>&nbsp;93.57&nbsp;</td>
+		<td>인천광역시 교육청</td>
+	</tr>
+		</tbody>
+	</table>
+
+	<table border="1">
+		<tbody>
+	<tr>
+		<th>경력사항</th>
+	</tr>
+	<tr>
+		<th>&nbsp;블로그 운영&nbsp;</th>
+		<th>운영기간:</th>
+		<td>&nbsp;2012&nbsp;</td>
+		<th>년</th>
+		<td>&nbsp;-&nbsp;</td>
+		<td>&nbsp;2015&nbsp;</td>
+		<th>년</th>
+		<th>&nbsp;유튜브 영상 제작&nbsp;</th>
+		<th><a href="https://www.youtube.com/watch?v=z18AUQPxxJ4"
+		title ="토끼의 사녹치킨 유튜브 시청">토끼의 사녹치킨 유튜브 시청</a></th>
+							 <!--a 링크의 시작점 앵커 표현-->
+							 <!--href 절대 or 상대주소 링크-->
+							 <!--title 말풍선 창에 나올 설명-->
+	</tr>
+		</tbody>
+	</table>
+
+	<table border="1">
+
+	<tr>
+		<td>
+		<img src="blog1.png"
+		 width="145" height="257" alt="블로그 최고기록 이미지" border="1">
+		</td>					<!--img 이미지 삽입-->
+
+		<td>
+		<img src="blog2.png"
+		 width="145" height="257" alt="블로그 검색어 이미지" border="1">
+		</td>					<!--img 이미지 삽입-->
+
+		<td>
+		<iframe src="kimsubin.mp4"
+		width="472" height="257">
+		</td></iframe>				<!--iframe 브라우저 페이지 내에 다른 프레임 삽입-->
+	</tr>
+
+	</table>
+
+	<center>
+		<br><p><div id="me">자기소개</div></p><br>
+							<!--id 속성 사용-->
+	</center>
+							<!--ul 순서없는 목록-->
+		<ul class="a">				<!--class 속성 사용-->
+			<p><header>이 자기소개서는 김수빈의 인생을 짧게나마 소개하는 글 입니다.
+							<!--header 머릿말 제목이나 소개 등-->
+			<nav><a href ="https://blog.naver.com/remnantleader">김수빈 블로그</a></nav>
+			</header>			<!--nav 탐색메뉴 사용-->
+			<article>09세~15세의 진로 : 성악가<br>
+			            15세~현재의 진로 : 프로그래머</p>
+			</article>			<!--article  독립된 본문-->
+			<section>			<!--section 그룹내 섹션-->
+			<li class="tokki">성악가에서 프로그래머로 진로를 바꾸게된 계기?<br>
+			<p>				<!--p 단락-->
+			저는 성악을 만07세부터 배우기 시작하면서, 자연스럽게 성악가라는 꿈을 키워가게 되었습니다.<br>
+			그렇게 성악을 배워가던중 성악가라는 직업이 '내 평생에 직업으로써 행복을 줄 수 있는가?'<br>
+			의문을 가지게 되었습니다. 부모님과 함께한 고민 끝에 '나의 행복의 직업으로 성악가를 삼기에는<br>
+			만족도가 부족하다.'는 결론에 도달하였습니다. 가장 큰 이유는 제 자신의 성향이였고,<br>
+			두번째는 우리나라에서 성악가라는 직업의 환경을 고려한 결정이였습니다.</p>
+			</li>				<!--li 나열된 항목-->
+			<p>
+			</section>
+			<section>
+			<li class="tokki">그런데 어째서 프로그래머를 선택하게 되었는가?</li>	
+			<p>어렸을때부터 항상 들었던 강의가 있었습니다. 제 인생에 많은 이정표가 되어준 강의입니다.<br>
+			그 강의에서 4차 산업혁명 이야기가 나왔고, 평상시에 취미가 성악, 블로그, 카페, 온라인 대화,<br>
+			모바일 게임, 유튜브 등 대부분이 온라인과 관련되어있던 기능을 좋아하며 사용하고 있었던<br>
+			저는 그때부터 이것을 사용할 수 있게 해준 프로그래머라는 직업에 관심을 가지게 되었습니다.<br>
+			이후로 IT에 관련하여 책을 찾아보았는데, 앞으로 향후 10년간 이 직업군의 발전의 방향이<br>
+			너무나도 흥미로웠고, 내가 프로그래머로써 살아가게 된다면 이 IT분야에서 일평생 삶을<br>
+			살아갈 수 있겠다는 꿈과 사회가 원하는 프로그램을 직접 만들고 싶다는 비전이 생겼습니다.<br>
+			</p>
+			</section>
+			<section>
+			<li class="tokki">앞으로의 각오가 있다면?</li>
+			<p>
+			저는 다른 사람들보다 느립니다. 많이 반복해야하고 무엇이든지 여유를 가지고 차근히 해야합니다.<br>
+			남들보다 차근차근 세밀하게 해야하는데 그럼 어떻게 해야할까요? 빠르게 시작 해야합니다.<br>
+			그래서 저는 여유기간이 필요하기 때문에 무슨 일이든 미리 시작합니다. 이것이 제 단점이자,<br>
+			장점입니다. 이 단점을 더 꼼꼼하고 세밀한 결과물로 극복해나가겠습니다. 감사합니다.<br>
+			</p>
+			</section>
+		</ul>
+
+		</body>
+	</html>
